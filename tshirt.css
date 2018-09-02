@@ -1,18 +1,17 @@
 body {
-    background: rgba(39, 15, 15, 0.11);
+    background: white;
+    margin-left: 50px;
+    margin-right: 250x;
 }
 
-/* #wrapper {
-    width: 1000px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-} */
+a {
+    text-decoration: none;
+    color: rgb(219, 189, 16);
+}
 
-/* .header {
-
-} */
-
+a:visited {
+    color: red;
+}
 
  .navbar {
     left: 10px;
@@ -30,251 +29,323 @@ body {
     height: 25px;
     float: right;
 }
-/*
-.maincontainer {
-   width: 90%;
-   height: 1146px;
-   border: 1px solid black; 
-   position: absolute;
-   margin: 50px 50px 20px 50px;
-   padding: 10px 10px 10px 10px
-}
-*/
+
 .titlebox {
-    background: darkgray;
+    background: #3E4C5E;
     position: absolute;
     margin: 40px 25px 25px 25px;
     padding: 1px 1px 1px 1px;
     height: 250px;
-    width: 95%;
+    width: 1280px;
     float: left;
-    color: rgb(114, 14, 14);
+    color: black;
     border-radius: 25px;
 }
 
 .companytitle {
-    margin: 20px 20px 15px 35px;
+    margin: 20px 20px 15px 30px;
     height: 210px;
     width: 95%;
-    border: 1px solid black;
     z-index: 1;
     position: absolute;
-    background: rgb(19, 19, 88);
+    background: #84828F;
     border-radius: 20px;
+    text-align: center;
 }
-        
+
+.companytitle h1 {
+	font-family: Arial, "Times New Roman", serif;
+	color: rgb(40, 38, 163);
+	font-size: 7.0em;
+	letter-spacing: -0.025em;
+	margin: 0;
+}
+
+.companytitle h2 {
+    font-weight: 300;
+	font-size: 3.8em;
+	color: black;
+	margin: -0.4em 0 0 1.0em;
+	letter-spacing: 0.05em;
+}
+
  .links {
-    border: 1px solid black;
     position: absolute;
     margin: 20px 25px 25px 25px;
     padding: 1px 1px 1px 1px;
-    width: 204px;
+    width: 200px;
     top:300px;
     height: 507px;
     border-radius: 20px;
+    background: #3E4C5E;
+    text-align: center;
+    color: white;
+    font-family: Arial, "Times New Roman", serif;
 }
 
 
 .testimonials {
-    border: 1px solid black;
     position: absolute;
     margin: 20px 0px 25px 25px;
     padding: 1px 1px 1px 1px;
-    width: 204px;
+    width: 200px;
     top:830px;
     height: 206px;
     border-radius: 20px;
-
+    background: #3E4C5E;
+    color: white;
+    text-align: center;
+    font-family: Arial, "Times New Roman", serif;
 }
 
 .categorysamples {
-    margin-left: 306px;
-    margin-right: 264px;
-    width: 1355px;
+    width: 1053px;
     height: 736px;
     z-index: 1;
     margin: 311px 25px 25px 250px;
     padding: 1px 1px 1px 1px;
     position: absolute;
-    background: darkgray;
+    background:#3E4C5E;
     border-radius: 20px;
+    font-family: "Arial", "Times New Roman", serif;
+    font-weight: bold;
 }
 
 .group1 {
-    margin: 25px 0px 25px 50px;
+    margin: 25px 0px 25px 25px;
     padding: 1px 1px 1px 1px;
-    width: 250px;
+    width: 225px;
     height: 685px;
     z-index: 2;
     position: absolute;
-    background: rgb(19, 19, 88);
+    background: #84828F;
     border-radius: 20px;
-
+    
 }
 
- .movielines {
+ #movielines {
     margin: 30px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 3;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.puns {
+#puns {
     margin: 250px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 3;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.justfunny {
+#justfunny {
     margin: 475px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 3;
     position: absolute;
+    color: rgb(40, 38, 163);
 } 
 
 .group2 {
-    margin: 25px 40px 25px 380px;
+    margin: 25px 40px 25px 283px;
     padding: 1px 1px 1px 1px;
-    width: 250px;
+    width: 225px;
     height: 685px;
     z-index: 2;
     position: absolute;
-    background: rgb(19, 19, 88);
+    background: #84828F;
     border-radius: 20px;
 
 }
 
-.tvquotes {
+#tvquotes {
     margin: 30px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 2;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.insults {
+#insults {
     margin: 250px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 2;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.currentpop {
+#currentpop {
     margin: 475px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 2;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
 .group3 {
-    margin: 25px 25px 25px 715px;
+    margin: 25px 25px 25px 540px;
     padding: 1px 1px 1px 1px;
-    width: 250px;
+    width: 225px;
     height: 685px;
     z-index: 2;
     position: absolute;
-    background: rgb(19, 19, 88);
+    background: #84828F;
     border-radius: 20px;
 
 }
 
-.puresarcasm {
+#puresarcasm {
     margin: 30px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 2;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.techgamers {
+#techgamers {
     margin: 250px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 3;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.thinking2 {
+#jobcomplaints {
     margin: 475px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 3;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
 .group4 {
-    margin: 25px 25px 25px 1050px;
+    margin: 25px 25px 25px 795px;
     padding: 1px 1px 1px 1px;
-    width: 250px;
+    width: 225px;
     height: 685px;
     z-index: 2;
     position: absolute;
-    background: rgb(19, 19, 88);
+    background: #84828F;
     border-radius: 20px;
 
 }
-.holiday {
+#holiday {
     margin: 30px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 2;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.thinking1 {
+#vintage {
     margin: 250px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 3;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-.designown {
+#designown {
     margin: 475px 15px 25px 23px;
     padding: 1px 1px 1px 1px;
-    width: 200px;
+    width: 170px;
     height: 170px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 3;
     position: absolute;
+    color: rgb(40, 38, 163);
 }
 
-/*
 .bottomcontainer {
-    margin: 475px 15px 25px 23px;
+    margin: 1075px 25px 25px 25px;
     padding: 1px 1px 1px 1px;
-    width: 1254px;
-    height: 170px;
-    border: solid black;
+    width: 1280px;
+    height: 150px;
     z-index: 1;
-    float: left;
+    position: absolute;
+    background: #3E4C5E;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(219, 189, 16);
 }
-*/
+
+#movielines p {
+    text-align: center;
+}
+
+#puns p {
+    text-align: center;
+}
+
+#justfunny p {
+    text-align: center;
+}
+
+#tvquotes p {
+    text-align: center;
+}
+
+#insults p {
+    text-align: center;
+}
+
+#currentpop p {
+    text-align: center;
+}
+
+#puresarcasm p {
+    text-align: center;
+}
+
+#techgamers p {
+    text-align: center;
+}
+
+#jobcomplaints p {
+    text-align: center;
+}
+#holiday p {
+    text-align: center;
+}
+
+#vintage p {
+    text-align: center;
+}
+
+#designown p {
+    text-align: center;
+}
