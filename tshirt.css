@@ -1,0 +1,280 @@
+body {
+    background: rgba(39, 15, 15, 0.11);
+}
+
+/* #wrapper {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .header {
+
+} */
+
+
+ .navbar {
+    left: 10px;
+    right: 14px;
+    width: 237px;
+    height: 40px;
+    font-size: 18px;
+    position: absolute;
+} 
+
+#search {
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    float: right;
+}
+/*
+.maincontainer {
+   width: 90%;
+   height: 1146px;
+   border: 1px solid black; 
+   position: absolute;
+   margin: 50px 50px 20px 50px;
+   padding: 10px 10px 10px 10px
+}
+*/
+.titlebox {
+    background: darkgray;
+    position: absolute;
+    margin: 40px 25px 25px 25px;
+    padding: 1px 1px 1px 1px;
+    height: 250px;
+    width: 95%;
+    float: left;
+    color: rgb(114, 14, 14);
+    border-radius: 25px;
+}
+
+.companytitle {
+    margin: 20px 20px 15px 35px;
+    height: 210px;
+    width: 95%;
+    border: 1px solid black;
+    z-index: 1;
+    position: absolute;
+    background: rgb(19, 19, 88);
+    border-radius: 20px;
+}
+        
+ .links {
+    border: 1px solid black;
+    position: absolute;
+    margin: 20px 25px 25px 25px;
+    padding: 1px 1px 1px 1px;
+    width: 204px;
+    top:300px;
+    height: 507px;
+    border-radius: 20px;
+}
+
+
+.testimonials {
+    border: 1px solid black;
+    position: absolute;
+    margin: 20px 0px 25px 25px;
+    padding: 1px 1px 1px 1px;
+    width: 204px;
+    top:830px;
+    height: 206px;
+    border-radius: 20px;
+
+}
+
+.categorysamples {
+    margin-left: 306px;
+    margin-right: 264px;
+    width: 1355px;
+    height: 736px;
+    z-index: 1;
+    margin: 311px 25px 25px 250px;
+    padding: 1px 1px 1px 1px;
+    position: absolute;
+    background: darkgray;
+    border-radius: 20px;
+}
+
+.group1 {
+    margin: 25px 0px 25px 50px;
+    padding: 1px 1px 1px 1px;
+    width: 250px;
+    height: 685px;
+    z-index: 2;
+    position: absolute;
+    background: rgb(19, 19, 88);
+    border-radius: 20px;
+
+}
+
+ .movielines {
+    margin: 30px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+}
+
+.puns {
+    margin: 250px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+}
+
+.justfunny {
+    margin: 475px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+} 
+
+.group2 {
+    margin: 25px 40px 25px 380px;
+    padding: 1px 1px 1px 1px;
+    width: 250px;
+    height: 685px;
+    z-index: 2;
+    position: absolute;
+    background: rgb(19, 19, 88);
+    border-radius: 20px;
+
+}
+
+.tvquotes {
+    margin: 30px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 2;
+    position: absolute;
+}
+
+.insults {
+    margin: 250px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 2;
+    position: absolute;
+}
+
+.currentpop {
+    margin: 475px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 2;
+    position: absolute;
+}
+
+.group3 {
+    margin: 25px 25px 25px 715px;
+    padding: 1px 1px 1px 1px;
+    width: 250px;
+    height: 685px;
+    z-index: 2;
+    position: absolute;
+    background: rgb(19, 19, 88);
+    border-radius: 20px;
+
+}
+
+.puresarcasm {
+    margin: 30px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 2;
+    position: absolute;
+}
+
+.techgamers {
+    margin: 250px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+}
+
+.thinking2 {
+    margin: 475px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+}
+
+.group4 {
+    margin: 25px 25px 25px 1050px;
+    padding: 1px 1px 1px 1px;
+    width: 250px;
+    height: 685px;
+    z-index: 2;
+    position: absolute;
+    background: rgb(19, 19, 88);
+    border-radius: 20px;
+
+}
+.holiday {
+    margin: 30px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 2;
+    position: absolute;
+}
+
+.thinking1 {
+    margin: 250px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+}
+
+.designown {
+    margin: 475px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    z-index: 3;
+    position: absolute;
+}
+
+/*
+.bottomcontainer {
+    margin: 475px 15px 25px 23px;
+    padding: 1px 1px 1px 1px;
+    width: 1254px;
+    height: 170px;
+    border: solid black;
+    z-index: 1;
+    float: left;
+}
+*/
